@@ -33,9 +33,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matt Songer',
-  role: 'Full Stack Engineer',
+  role: 'Full Stack Web Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  "Hey, I'm Matt. I enjoy building websites! I've used computers most of my life and love using them to create. Web Devleopment is where my creative side meets my logical side. ",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/matthewsonger.com',
@@ -47,64 +47,64 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Run Buddy',
     id: 1,
     photo: firstProjectPhoto,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML, CSS'],
+    sourceCode: 'https://github.com/MatthewSonger/run-buddy.git',
+    livePreview: 'https://matthewsonger.github.io/run-buddy/',
   },
   {
-    name: 'Project 2',
+    name: 'Sip and Read',
     id: 2,
     photo: secondProjectPhoto,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML, CSS, JavaScript, Tailwind'],
+    sourceCode: 'https://github.com/MatthewSonger/sip-and-read.git',
+    livePreview: 'https://kimberlyannyo.github.io/sip-and-read/',
   },
   {
-    name: 'Project 3',
+    name: 'The Story Keepers',
     id: 3,
     photo: thirdProjectPhoto,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML, CSS, JavaScript, Bootstrap'],
+    sourceCode: 'https://github.com/Matt658041/The-Story-Keepers.git',
+    livePreview: 'http://storykeepers.herokuapp.com/',
   },
   {
-    name: 'Project 4',
+    name: 'Rock Paper Scissors',
     id: 4,
     photo: fourthProjectPhoto,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML, CSS, JavaScript'],
+    sourceCode: 'https://github.com/MatthewSonger/Rock-Paper-Scissors.git',
+    livePreview: 'https://matthewsonger.github.io/Rock-Paper-Scissors/',
   },
   {
-    name: 'Project 5',
+    name: 'Task Manager',
     id: 5,
     photo: fifthProjectPhoto,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML, CSS, JavaScript'],
+    sourceCode: 'https://github.com/MatthewSonger/taskinator.git',
+    livePreview: 'https://matthewsonger.github.io/taskinator/',
   },
   {
-    name: 'Project 6',
+    name: 'Password Generator',
     id: 6,
     photo: sixProjectPhoto,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['HTML, CSS, JavaScript'],
+    sourceCode: 'https://github.com/MatthewSonger/challenge3.git',
+    livePreview: 'https://matthewsonger.github.io/challenge3/',
   },
 ]
 
