@@ -26,7 +26,7 @@ import sixProjectPhoto from './assets/small/projects/5.png';
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://matthewsonger.github.io/react-portfolio',
+  homepage: 'null',
   title: 'Matt Songer',
 }
 
@@ -36,8 +36,8 @@ const about = {
   role: 'Full Stack Web Developer',
   description:
   "Hey, I'm Matt. I enjoy building websites! I've used computers most of my life and love using them to create. Web Devleopment is where my creative side meets my logical side. ",
-  resume: 'https://example.com',
-  social: {
+  resume: 'contact me',
+    social: {
     linkedin: 'https://www.linkedin.com/in/matthewsonger.com',
     github: 'https://github.com/MatthewSonger',
   },
