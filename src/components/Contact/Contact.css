@@ -1,3 +1,77 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.contact-form, .contact-form textarea {
+  border: 1ps solid var(--secondary-color);
+  border-radius: 10px;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+label,
+input,
+textarea {
+  /* In order to define widths */
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  width: 30%;
+  /* Positions the label text beside the input */
+  text-align: right;
+}
+
+label+input+textarea {
+  width: 30%;
+  /* Large margin-right to force the next element to the new-line
+           and margin-left to create a gutter between the label and input */
+  margin: 0 30% 0 4%;
+}
+
+
+/* Only the submit button is matched by this selector,
+       but to be sure you could use an id or class for that button */
+
+input+input {
+  float: right;
+}
+
+.contact-section button {
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  background: #bdbddd;
+  color: #22283D;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
 .contact {
   flex-direction: column;
+}
+
+.contact-field {
+  border:1px solid black;
+  background-color:  #bdbddd;
+ 
+}
+.contact-form input, .contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.75);
+  outline: none;
+  border-radius: 5px;
+}
+
+.contact-info input:focus, .contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }

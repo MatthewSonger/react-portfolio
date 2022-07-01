@@ -6,7 +6,9 @@
 .about__name {
   color: var(--clr-primary);
 }
-
+.about_headshot {
+ width: 20%;
+}
 .about__role {
   margin-top: 1.2em;
 }

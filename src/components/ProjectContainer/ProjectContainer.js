@@ -2,7 +2,10 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
-// import runbuddy from '../../assets/small//projects/0.png'
+// import firstProjectPhoto from '../../assets/small/projects/0.png';
+// import secondProjectPhoto from '../../assets/small/projects/1.png';
+// import thirdProjectPhoto from '../../assets/small/projects/2.png';
+// import projects from '../../portfolio';
 
 
 
@@ -10,7 +13,20 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-    {/* <img src={runbuddy}/> */}
+    <div key={project.id}>
+    <img src={project.photo}></img>
+      {/* {
+        MyProjects && MyProjects.map(( projects, idx) => {
+          return (
+            <div key={project.id}>
+              <img src={projects.photo} key={idx}></img>
+            </div>
+          )
+        })
+
+        
+      } */}
+    </div>
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
