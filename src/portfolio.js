@@ -7,6 +7,7 @@ import fifthProjectPhoto from './assets/small/projects/4.png';
 import sixProjectPhoto from './assets/small/projects/5.png';
 
 
+
 // const photos = [
 //   {
 //       photo:firstProjectPhoto,
@@ -51,7 +52,7 @@ const projects = [
     id: 1,
     photo: firstProjectPhoto,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      '',
     stack: ['HTML, CSS'],
     sourceCode: 'https://github.com/MatthewSonger/run-buddy.git',
     livePreview: 'https://matthewsonger.github.io/run-buddy/',
@@ -61,7 +62,7 @@ const projects = [
     id: 2,
     photo: secondProjectPhoto,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      '',
     stack: ['HTML, CSS, JavaScript, Tailwind'],
     sourceCode: 'https://github.com/MatthewSonger/sip-and-read.git',
     livePreview: 'https://kimberlyannyo.github.io/sip-and-read/',
@@ -70,9 +71,8 @@ const projects = [
     name: 'The Story Keepers',
     id: 3,
     photo: thirdProjectPhoto,
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['HTML, CSS, JavaScript, Bootstrap'],
+    description: '',
+        stack: ['HTML, CSS, JavaScript, Bootstrap'],
     sourceCode: 'https://github.com/Matt658041/The-Story-Keepers.git',
     livePreview: 'http://storykeepers.herokuapp.com/',
   },
@@ -81,7 +81,7 @@ const projects = [
     id: 4,
     photo: fourthProjectPhoto,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      '',
     stack: ['HTML, CSS, JavaScript'],
     sourceCode: 'https://github.com/MatthewSonger/Rock-Paper-Scissors.git',
     livePreview: 'https://matthewsonger.github.io/Rock-Paper-Scissors/',
@@ -91,7 +91,7 @@ const projects = [
     id: 5,
     photo: fifthProjectPhoto,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      '',
     stack: ['HTML, CSS, JavaScript'],
     sourceCode: 'https://github.com/MatthewSonger/taskinator.git',
     livePreview: 'https://matthewsonger.github.io/taskinator/',
@@ -101,7 +101,7 @@ const projects = [
     id: 6,
     photo: sixProjectPhoto,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      '',
     stack: ['HTML, CSS, JavaScript'],
     sourceCode: 'https://github.com/MatthewSonger/challenge3.git',
     livePreview: 'https://matthewsonger.github.io/challenge3/',
@@ -127,5 +127,6 @@ const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'matt91893@gmail.com',
 }
+
 
 export { header, about, projects, skills, contact}

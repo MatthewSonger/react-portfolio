@@ -6,7 +6,7 @@ const Footer = () => (
      
       className='link footer__link'
     >
-      Created By Matthew Songer
+      Built with React by Matthew Songer
     </a>
   </footer>
 )

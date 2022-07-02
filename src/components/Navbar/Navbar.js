@@ -6,6 +6,8 @@ import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
+// import resume  from '../../components/Resume/Resume.js';
+// import myResume from '../../assets/resume/Resume.pdf';
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -55,7 +57,18 @@ const Navbar = () => {
           </li>
         ) : null}
       </ul>
-
+      
+      {/* <div className='res'>
+        <h2 className='heading'>Resume</h2>
+          <Document
+          file={resume}
+          onLoadError={console.error}
+          style={{width: '100vw', height: 'auto'}}
+          >
+            <Page pageIndex={0}/>
+          </Document>
+      </div> */}
+      
       <button
         type='button'
         onClick={toggleTheme}
