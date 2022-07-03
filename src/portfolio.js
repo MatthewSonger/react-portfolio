@@ -120,7 +120,8 @@ const skills = [
   'SQL',
   'MongoDB',
   'Bootstrap',
-  'Git'
+  'Git',
+  'GitHub'
 ]
 
 const contact = {
