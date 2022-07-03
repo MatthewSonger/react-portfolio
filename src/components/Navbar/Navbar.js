@@ -57,6 +57,7 @@ const Navbar = () => {
           </li>
         ) : null}
       </ul>
+    
       
       {/* <div className='res'>
         <h2 className='heading'>Resume</h2>

@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../../assets/resume/Resume.pdf';
 import { saveAs } from "file-saver";
+import './Resume.css'
 
 
 const Resume = () => {
@@ -11,9 +12,9 @@ const Resume = () => {
     );
   };
   return (
-    <div>
-      <button onClick={saveFile}>Download My Resume</button>
-    </div>
+        <div className="container">
+            <button  className="my_resume"  onClick={saveFile}>Download My Resume</button>
+        </div>
   );
 }
 
