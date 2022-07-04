@@ -4,6 +4,7 @@
 
   # My Portfolio
 
+<img width="1439" alt="Screen Shot 2022-07-03 at 9 54 26 PM" src="https://user-images.githubusercontent.com/94155400/177068230-ef6347e2-6288-4085-afe4-df5ab6072e7d.png">
 
   ## Table of Contents
   * [Description](#description)
