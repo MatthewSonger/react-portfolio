@@ -97,14 +97,14 @@ const projects = [
     livePreview: 'https://matthewsonger.github.io/taskinator/',
   },
   {
-    name: 'Password Generator',
+    name: 'Penny For Your Thoughts',
     id: 6,
     photo: sixProjectPhoto,
     description:
       '',
-    stack: ['HTML, CSS, JavaScript'],
-    sourceCode: 'https://github.com/MatthewSonger/challenge3.git',
-    livePreview: 'https://matthewsonger.github.io/challenge3/',
+    stack: ['React, Node, MongoDB, Express, Bootstrap, GraphQL'],
+    sourceCode: 'https://github.com/Matt658041/Penny-for-your-thoughts.git',
+    livePreview: 'http://penny-thoughts.herokuapp.com/',
   },
 ]
 
