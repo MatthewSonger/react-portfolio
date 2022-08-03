@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: var(--clr-contact-field);
 }
 .contact-form, .contact-form textarea {
   border: 1ps solid var(--secondary-color);
