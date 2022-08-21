@@ -1,22 +1,42 @@
 import { contact } from '../../portfolio'
 import './Contact.css'
+import emailjs from '@emailjs/browser';
 
 import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
-function Contact() {
+const Result = () => {
+  return (
+    <p>Your message has been successfully sent.</p>
+  )
+}
+
+function Contact(props) {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
+  const [result,showResult] = useState(false);
+  const sendEmail = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
+
+    emailjs.sendForm('service_6hsqwzb', 'template_s8py2wi', e.target, 'aLK6E7x7b5hQeDQy3')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+      showResult(true);
   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!errorMessage) {
+  //     console.log('Submit Form', formState);
+  //   }
+  // };
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -42,7 +62,7 @@ function Contact() {
   return (
     <section className='contact-section' id="contact">
       <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" onSubmit={sendEmail}>
         <div>
           <label htmlFor="name"></label>
           <input className="contact-field" type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name" />
@@ -61,6 +81,7 @@ function Contact() {
           </div>
         )}
         <button data-testid="button" type="submit">Submit</button>
+        <div className='row'>{result ? <Result/> : null}</div>
       </form>
     </section>
   );
