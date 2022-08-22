@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 600px) {
-  .app .about {
+  .app.about {
     align-items: flex-start;
     margin-top: 2em;
   }
